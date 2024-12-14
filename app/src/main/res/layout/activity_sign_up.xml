@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/bckground_gradient2">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loto_3" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
+
+    <EditText
+        android:id="@+id/txtNacionalidad"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:hint="@string/nacionalidad"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:hint="@string/contrasena"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNacionalidad" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="174dp"
+        android:background="@drawable/ripple_effect"
+        android:drawableStart="@drawable/flecha"
+        android:paddingLeft="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContrasena" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="138dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/flecha_atras"
+        android:background="@drawable/btn_invisible"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="10dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

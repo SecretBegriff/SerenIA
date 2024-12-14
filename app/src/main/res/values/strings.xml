@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SerenIA 1.0</string>
+    <string name="contador_segundos">00</string>
+    <string name="contador_minutos">00</string>
+    <string name="contador_horas">00</string>
+    <string name="dospuntos">:</string>
+    <string name="duracion">Duración</string>
+    <string name="chat">Chat</string>
+    <string name="meditar">Meditar</string>
+    <string name="dieta">Dieta</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="meditacion">Meditación</string>
+    <string name="btn"></string>
+
+    //Textos del menu desplegable
+    <string name="perfil">Perfil</string>
+    <string name="configuracion">Configuración</string>
+
+
+    //Textos de Log In
+    <string name="login">Log In</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+
+    //Textos de Sign Up
+    <string name="signup">Sign Up</string>
+    <string name="correo">Correo</string>
+    <string name="nacionalidad">Nacionalidad</string>
+
+    //Textos de Meditar
+    <string name="pausar">Pausar</string>
+    <string name="continuar">Continuar</string>
+    <string name="detener">Detener</string>
+
+
+    //Textos Stats
+    <string name="saludo">Hola </string>
+</resources>
